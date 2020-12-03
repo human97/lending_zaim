@@ -1,0 +1,43 @@
+/* slider */
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 130px 130px 0 215px;
+  background: #E5E5E5;
+
+  &--title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 130%;
+  }
+
+  &--title span {
+    font-weight: bold;
+  }
+
+  &--text {
+    margin: 40px 0 64px ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+  }
+}
+
+.bg_grad {
+  position: relative;
+  width: 671px;
+  height: 739px;
+  background: linear-gradient(180deg, #FF4550 0%, #FF7A00 100%);
+  border-radius: 40px 40px 0px 0px;
+}
+
+.avto_yaz{
+  position: absolute;
+  top: 125px;
+  right: 59px;
+}

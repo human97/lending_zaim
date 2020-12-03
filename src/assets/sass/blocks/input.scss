@@ -1,0 +1,35 @@
+/* input */
+
+input {
+  padding: 0 16px;
+  width: 340px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 0.5px solid #BDC6CF;
+  border-radius: 8px;
+
+  &::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #8B949D;
+  }
+}
+
+.input_text {
+  padding: 0 0 8px 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #53575A;
+}
+
+.input_text-small {
+  margin: 8px 0 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8B949D;
+}

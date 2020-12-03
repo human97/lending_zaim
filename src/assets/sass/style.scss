@@ -12,16 +12,43 @@
     outline: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    /* or 49px */
+}
+
 body {
     font-family: $font;
     font-style: normal;
-    color: #000;
+    color: $color_text;
     background: #fff;
-    min-height: 100vh;
-    text-align: center;
-    
-    /* mobile viewport bug fix */
-    min-height: -webkit-fill-available;
 }
 
-@import 'src/assets/sass/blocks/block';
+
+/* blocks */
+@import 'blocks/page';
+@import 'blocks/header';
+@import 'blocks/wrapper_flex';
+@import 'blocks/wrapper_flex_center';
+@import 'blocks/wrapper_flex-collumn';
+@import 'blocks/nav';
+@import 'blocks/slider';
+@import 'blocks/orange_line';
+@import 'blocks/input';
+@import 'blocks/btn';
+@import 'blocks/shield_block';
+@import 'blocks/btn_shield_block';
+@import 'blocks/conditions';
+@import 'blocks/benefit';
+@import 'blocks/benefits';
+
+
+
+/* vendor libs */
+@import 'vendors/slick';

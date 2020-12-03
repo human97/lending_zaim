@@ -1,0 +1,32 @@
+/* benefit */
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.benefit_img {
+  margin: 0 0 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 153px;
+  height: 153px;
+  background: linear-gradient(89.26deg, #E1DFDF 11.54%, rgba(255, 255, 255, 0) 119.92%);
+  border-radius: 26px;
+
+  &-time {
+    background: linear-gradient(51.78deg, #FF8E09 -12.52%, #FF0000 124.02%);
+  }
+}
+
+.benefit_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  /* or 26px */
+  color: #000;
+}

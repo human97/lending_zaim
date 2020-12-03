@@ -1,0 +1,28 @@
+/* nav_up */
+
+.nav--link {
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.nav_up a {
+  color: $color_text;
+}
+
+
+.link_phone {
+  display: flex;
+  padding: 0 88px;
+  color: $color_text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+
+  &-number {
+    padding: 0 0 0 13px;
+  }
+}
