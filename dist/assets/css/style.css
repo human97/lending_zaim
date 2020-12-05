@@ -374,7 +374,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    max-width: 1920px;
+    width: 1920px;
     margin: 0 auto;
   /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
@@ -579,6 +579,7 @@ input::placeholder {
 
 .conditions--wrapper {
     width: 1434px;
+    padding: 0 5px;
 }
 
 .conditions--text p {
@@ -624,6 +625,56 @@ input::placeholder {
 .benefits {
     width: 1220px;
     margin: 177px 0 0;
+}
+
+/* requirements */
+.requirements {
+    padding: 88px 0 90px 0;
+    position: relative;
+    width: 1496px;
+    background: #E5E5E5;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.requirements h2 {
+    margin: 0 0 31px 0;
+}
+
+.requirements .orange_line {
+    margin: 31px 0 53px 0;
+}
+
+.requirements h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.requirements--lists {
+    width: 634px;
+}
+
+.requirements ul {
+    list-style-image: url(../img/icons/green_dot.svg);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    margin: 41px 0 0 20px;
+}
+
+.requirements--lists-line {
+    width: 562px;
+    border: 1px solid #BDC6CF;
+    margin: 72px 0 64px 0;
+}
+
+.requirements img {
+    position: absolute;
+    top: 0;
+    left: -212px;
 }
 
 /* vendor libs */

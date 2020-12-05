@@ -1,0 +1,50 @@
+/* requirements */
+
+.requirements {
+  padding: 88px 0 90px 0;
+  position: relative;
+  width: 1496px;
+  background: #E5E5E5;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+
+  h2 {
+    margin: 0 0 31px 0;
+  }
+
+  .orange_line{
+    margin: 31px 0 53px 0;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+  }
+
+  &--lists {
+    width: 634px;
+  }
+
+  ul {
+    list-style-image: url(../img/icons/green_dot.svg);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    margin: 41px 0 0 20px;
+  }
+
+  &--lists-line {
+    width: 562px;
+    border: 1px solid #BDC6CF;
+    margin: 72px 0 64px 0;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: -212px;
+  }
+}
