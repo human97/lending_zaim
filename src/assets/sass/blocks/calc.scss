@@ -1,0 +1,114 @@
+/* calc */
+
+.calc {
+  position: absolute;
+  top: 23px;
+  right: 126px;
+  width: 464px;
+  height: 600px;
+  background: #FFF;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  color: #2F343A;
+
+  .wrapper {
+    padding: 34px 29px 42px 30px;
+  }
+
+  h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+.loan_amount {
+  margin: 25px 0 38px 0;
+}
+
+.outsum,
+.out_month {
+  margin: 8px 0 15px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+
+  span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+input[type=range] {
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: 22px;
+  background: #EFF3F9;
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  appearance: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  opacity: none;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #62A8FD 0%, #9E80F2 100%);
+}
+
+.payment {
+  height: 91px;
+  text-align: center;
+  background: #EFF3F9;
+  padding: 15px 0 18px 0;
+  margin: 0 0 31px 0;
+}
+
+.payment_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #53575A;
+}
+
+.payment_total {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #53575A;
+}
+
+.calc_btn {
+  width: 432px;
+  height: 85px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 11px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 0;
+  background: #55C976;
+  box-shadow: 0px 0px 10px rgba(85, 201, 118, 0.65);
+  border-radius: 67px;
+
+  cursor: pointer;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+}

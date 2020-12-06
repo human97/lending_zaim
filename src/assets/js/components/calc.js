@@ -52,4 +52,3 @@ rangeMonth.addEventListener('input', function () {
   changeColor(this, 30)
   count()
 })
-"use strict";
