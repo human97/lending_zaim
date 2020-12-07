@@ -373,7 +373,6 @@ body {
 .page {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     max-width: 1920px;
     width: 100vw;
     margin: 0 auto;
@@ -823,6 +822,53 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 16px;
     line-height: 20px;
     color: #FFF;
+}
+
+/* help */
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 966px;
+    height: 444px;
+    margin: 0 auto 106px;
+}
+
+.help_select_wrap {
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.help_select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 44px 0 42px;
+    width: 966px;
+    height: 88px;
+    background: #EFF3F9;
+    border-radius: 10px;
+}
+
+.help_select p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.help_select svg {
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    height: 250px;
+    background: #242935;
 }
 
 /* vendor libs */

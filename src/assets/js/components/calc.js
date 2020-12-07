@@ -1,4 +1,5 @@
 /* calc */
+
 window.addEventListener('load', function () {
   outsum.innerHTML = `${rangeSum.valueAsNumber}<span>&nbsp;тыс. рублей</span>`
   outMonth.innerHTML = `${rangeMonth.valueAsNumber}<span>&nbsp;мес.</span>`
