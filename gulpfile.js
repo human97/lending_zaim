@@ -14,7 +14,7 @@ const cssnano = require("gulp-cssnano");
 const babel = require("gulp-babel");
 const rigger = require("gulp-rigger");
 const uglify = require("gulp-uglify");
-const uglifyjs = require('uglify-js');
+const terser = require('gulp-terser');
 const plumber = require("gulp-plumber");
 const imagemin = require("gulp-imagemin");
 const del = require("del");
@@ -113,16 +113,17 @@ function js() {
             base: './src/assets/js/'
         })
         .pipe(plumber())
-        .pipe(babel({
-            presets: ['@babel/env']
-        }))
         .pipe(rigger())
+        .pipe(babel({
+            presets: ['@babel/preset-env']
+        }))
         .pipe(gulp.dest(path.build.js))
-        .pipe(uglify())
+        .pipe(terser())
         .pipe(rename({
             suffix: ".min",
             extname: ".js"
         }))
+
         .pipe(dest(path.build.js))
         .pipe(browsersync.stream());
 }

@@ -1,14 +1,14 @@
 /* requirements */
 
 .requirements {
+  display: flex;
+  justify-content: flex-end;
   padding: 88px 0 90px 0;
   position: relative;
-  width: 1496px;
+  width: 77.97%;
   background: linear-gradient(123.67deg, #EFF3F9 30.01%, #FFF 101.62%);
   border-radius: 20px;
   margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
 
   h2 {
     margin: 0 0 31px 0;
@@ -45,6 +45,11 @@
   img {
     position: absolute;
     top: 0;
-    left: -212px;
+    left: -14.16%;
+
+    @media (max-width:1580px){
+      z-index: -1;
+    }
   }
-}
+
+  }

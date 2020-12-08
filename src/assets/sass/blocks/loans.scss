@@ -1,6 +1,8 @@
 /* loans */
 
 .loans {
+  display: flex;
+  flex-direction: column;
   width: 1496px;
   background: linear-gradient(100.16deg, #FF461B 7.74%, #FF7A00 108.82%);
   border-radius: 20px;

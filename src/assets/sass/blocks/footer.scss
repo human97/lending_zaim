@@ -1,6 +1,65 @@
 /* footer */
 
-.footer{
+.footer {
+  display: flex;
+  justify-content: center;
+  //padding: 82px 0 0 0;
   height: 250px;
   background: #242935;
+  color: #fff;
+
+}
+
+.footer--wrapper {
+  display: flex;
+  width: 1388px;
+  margin: 82px 0 60px 0;
+  //margin: 0 auto;
+
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
+
+.footer--logo{
+  display: block;
+  margin: 0 0 30px 0;
+}
+
+.footer--wrapper-text{
+  width: 353px;
+}
+
+.phone_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.phone_number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+
+  /* or 31px */
+}
+
+.nav_footer {
+  margin: 53px 0 0;
+  a {
+    color: #fff;
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+
 }
