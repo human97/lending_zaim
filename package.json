@@ -23,5 +23,8 @@
         "gulp-uglify": "^3.0.2",
         "panini": "^1.6.3"
     },
-    "dependencies": {}
+    "dependencies": {
+        "slick-carousel": "^1.8.1",
+        "swiper": "^6.4.0"
+    }
 }
