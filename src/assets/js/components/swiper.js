@@ -1,5 +1,5 @@
 /* swiper */
-
+/*
 // import Swiper JS
 import Swiper, {Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
 
@@ -28,4 +28,4 @@ const mySwiper = new Swiper('.swiper-container', {
     el: '.swiper-scrollbar',
   },
 })
-
+*/

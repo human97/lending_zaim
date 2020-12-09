@@ -373,6 +373,7 @@ body {
 .page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: 1920px;
     width: 100vw;
     margin: 0 auto;
@@ -395,6 +396,12 @@ body {
 
 .header--logo {
     display: block;
+}
+
+@media (max-width: 1520px) {
+    .header--logo {
+        margin: 0 0 0 10px;
+    }
 }
 
 .nav_header a {
@@ -477,6 +484,7 @@ body {
 
 @media (max-width: 1670px) {
     .slider {
+        padding: 130px 0 0;
         flex-direction: column;
         align-items: center;
     }
@@ -598,9 +606,27 @@ input::placeholder {
     padding: 142px 0 281px 0;
 }
 
+@media (max-width: 1024px) {
+    .conditions {
+        padding: 40px 0 100px 0;
+    }
+}
+
 .conditions--wrapper {
     width: 1434px;
     padding: 0 5px;
+}
+
+@media (max-width: 1454px) {
+    .conditions--wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1434px) {
+    .conditions--wrapper {
+        width: 100vw;
+    }
 }
 
 .conditions--text p {
@@ -646,6 +672,18 @@ input::placeholder {
 .benefits {
     width: 1220px;
     margin: 177px 0 0;
+}
+
+@media (max-width: 1220px) {
+    .benefits {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .benefits {
+        margin: 77px 0 0;
+    }
 }
 
 /* requirements */
@@ -717,6 +755,22 @@ input::placeholder {
     color: #fff;
 }
 
+@media (max-width: 1496px) {
+    .loans {
+        padding: 161px 0 145px 10px;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .loans {
+        align-items: center;
+        padding: 40px 0 70px 0;
+        margin: 129px auto 580px;
+        width: 100vw;
+    }
+}
+
 .loans_title {
     margin: 0 0 30px 0;
     font-family: Raleway;
@@ -725,6 +779,18 @@ input::placeholder {
     font-size: 54px;
     line-height: 130%;
   /* or 70px */
+}
+
+@media (max-width: 1200px) {
+    .loans_title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .loans_title {
+        margin: 0 0 20px 0;
+    }
 }
 
 .loans_subtitle {
@@ -747,6 +813,16 @@ input::placeholder {
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
     border-radius: 20px;
     color: #2F343A;
+}
+
+@media (max-width: 1024px) {
+    .calc {
+        align-items: center;
+        padding: 80px 0 70px 0;
+        top: 80%;
+        right: 50%;
+        transform: translateX(50%);
+    }
 }
 
 .calc .wrapper {
@@ -906,6 +982,12 @@ input[type=range]::-webkit-slider-thumb {
     display: flex;
     width: 1388px;
     margin: 82px 0 60px 0;
+}
+
+@media (max-width: 1400px) {
+    .footer--wrapper {
+        margin: 82px 0 60px 10px;
+    }
 }
 
 .footer--wrapper p {

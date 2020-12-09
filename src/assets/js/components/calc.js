@@ -26,7 +26,7 @@ const outputNumber = return2 => {
   return result2
 }
 
-// расчет платежа
+// расчет и вывод платежа
 function count() {
   let sum = (rangeSum.valueAsNumber / rangeMonth.valueAsNumber) * 2000
   total.textContent = `${outputNumber(sum)}`

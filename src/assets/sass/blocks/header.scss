@@ -16,6 +16,10 @@
 
 .header--logo {
   display: block;
+
+  @media (max-width: 1520px) {
+margin: 0 0 0 10px;
+  }
 }
 
 .nav_header a {

@@ -27,7 +27,7 @@ var outputNumber = function outputNumber(return2) {
     maximumFractionDigits: '0'
   });
   return result2;
-}; // расчет платежа
+}; // расчет и вывод платежа
 
 
 function count() {

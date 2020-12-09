@@ -10,6 +10,18 @@
   padding: 161px 0 145px 126px;
   position: relative;
   color: #fff;
+
+  @media (max-width: 1496px) {
+    padding: 161px 0 145px 10px;
+    width: 100vw;
+  }
+
+  @media (max-width: 1024px) {
+    align-items: center;
+    padding: 40px 0 70px 0;
+    margin: 129px auto 580px;
+    width: 100vw;
+  }
 }
 
 .loans_title {
@@ -20,6 +32,14 @@
   font-size: 54px;
   line-height: 130%;
   /* or 70px */
+
+  @media (max-width: 1200px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 1024px) {
+    margin: 0 0 20px 0;
+  }
 }
 
 .loans_subtitle {

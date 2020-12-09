@@ -4,9 +4,21 @@
   margin: 0 auto;
   padding: 142px 0 281px 0;
 
+  @media (max-width: 1024px) {
+    padding: 40px 0 100px 0;
+  }
+
   &--wrapper{
     width: 1434px;
     padding: 0 5px;
+
+    @media (max-width: 1454px) {
+      padding: 0 20px;
+    }
+
+    @media (max-width: 1434px) {
+      width: 100vw;
+    }
   }
 }
 

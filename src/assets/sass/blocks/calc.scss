@@ -11,6 +11,14 @@
   border-radius: 20px;
   color: #2F343A;
 
+  @media (max-width: 1024px) {
+    align-items: center;
+    padding: 80px 0 70px 0;
+    top: 80%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
   .wrapper {
     padding: 34px 29px 42px 30px;
   }
