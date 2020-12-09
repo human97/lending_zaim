@@ -818,7 +818,6 @@ input::placeholder {
 @media (max-width: 1024px) {
     .calc {
         align-items: center;
-        padding: 80px 0 70px 0;
         top: 80%;
         right: 50%;
         transform: translateX(50%);
