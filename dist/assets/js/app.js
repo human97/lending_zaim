@@ -2739,7 +2739,7 @@ rangeMonth.addEventListener('input', function () {
 
 $(function () {
   $("#slick-slider").slick({
-    //autoplay: true,
+    autoplay: true,
     //dots: true,
     speed: 1000,
     slidesToShow: 1,
