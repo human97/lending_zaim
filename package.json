@@ -1,8 +1,6 @@
 {
-    "name": "gulp-web",
-    "version": "1.0.0",
-    "description": "project using gulp4",
-    "author": "human",
+    "private": "true",
+   
     "devDependencies": {
         "@babel/core": "^7.8.4",
         "@babel/preset-env": "^7.8.4",

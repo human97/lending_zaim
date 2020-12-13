@@ -1,5 +1,9 @@
 /* nav */
 
+.nav {
+  display: flex;
+}
+
 .nav--link {
   padding: 0 20px;
   font-family: Roboto;
@@ -7,5 +11,25 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 130%;
+
+  &:hover {
+    color: #6a6d70;
+  }
 }
 
+.nav_header a {
+  color: $color_text;
+}
+
+.nav_footer {
+  margin: 53px 0 0;
+
+  a {
+    color: #fff;
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+
+}

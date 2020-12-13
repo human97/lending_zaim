@@ -2738,9 +2738,9 @@ rangeMonth.addEventListener('input', function () {
 });
 
 $(function () {
-  $("#slider_wrap").slick({
-    autoplay: true,
-    dots: true,
+  $("#slick-slider").slick({
+    //autoplay: true,
+    //dots: true,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1

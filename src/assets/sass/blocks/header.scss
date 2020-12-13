@@ -9,7 +9,7 @@
   background: #E5E5E5;
 }
 
-.header--inner{
+.header--inner {
   margin: 27px 0 0;
   width: 1492px;
 }
@@ -18,14 +18,14 @@
   display: block;
 
   @media (max-width: 1520px) {
-margin: 0 0 0 10px;
+    margin: 0 0 0 10px;
+  }
+
+  &-svg {
+    width: 129px;
+    height: 37px;
   }
 }
-
-.nav_header a {
-  color: $color_text;
-}
-
 
 .link_phone {
   display: flex;
@@ -35,6 +35,16 @@ margin: 0 0 0 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
+
+  &-svg {
+    width: 19.89px;
+    height: 19.93px;
+    fill: none;
+    stroke: #2F343A;
+    stroke-width: 1.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
 
   &-number {
     padding: 0 0 0 7px;

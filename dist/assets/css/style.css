@@ -366,6 +366,7 @@ body {
     font-style: normal;
     color: #2F343A;
     background: #fff;
+    overflow-x: hidden;
 }
 
 /* blocks */
@@ -375,7 +376,7 @@ body {
     flex-direction: column;
     justify-content: center;
     max-width: 1920px;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
   /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
@@ -404,8 +405,9 @@ body {
     }
 }
 
-.nav_header a {
-    color: #2F343A;
+.header--logo-svg {
+    width: 129px;
+    height: 37px;
 }
 
 .link_phone {
@@ -416,6 +418,16 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 130%;
+}
+
+.link_phone-svg {
+    width: 19.89px;
+    height: 19.93px;
+    fill: none;
+    stroke: #2F343A;
+    stroke-width: 1.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .link_phone-number {
@@ -444,6 +456,10 @@ body {
 }
 
 /* nav */
+.nav {
+    display: flex;
+}
+
 .nav--link {
     padding: 0 20px;
     font-family: Roboto;
@@ -451,6 +467,26 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
+}
+
+.nav--link:hover {
+    color: #6a6d70;
+}
+
+.nav_header a {
+    color: #2F343A;
+}
+
+.nav_footer {
+    margin: 53px 0 0;
+}
+
+.nav_footer a {
+    color: #fff;
+}
+
+.nav_footer a:first-child {
+    padding-left: 0;
 }
 
 /* slider */
@@ -1021,18 +1057,6 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 24px;
     line-height: 130%;
   /* or 31px */
-}
-
-.nav_footer {
-    margin: 53px 0 0;
-}
-
-.nav_footer a {
-    color: #fff;
-}
-
-.nav_footer a:first-child {
-    padding-left: 0;
 }
 
 /* vendor libs */

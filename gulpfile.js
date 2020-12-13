@@ -23,7 +23,7 @@ const browsersync = require("browser-sync").create();
 
 
 /* Paths */
-var path = {
+const path = {
     build: {
         html: "dist/",
         js: "dist/assets/js/",
@@ -64,7 +64,7 @@ function browserSyncReload(done) {
     browsersync.reload();
 }
 
-function html() {
+const html = () => {
     panini.refresh();
     return src(path.src.html, {
             base: "src/"
@@ -81,7 +81,7 @@ function html() {
         .pipe(browsersync.stream());
 }
 
-function css() {
+const css = () => {
     return src(path.src.css, {
             base: "src/assets/sass/"
         })
@@ -108,7 +108,7 @@ function css() {
         .pipe(browsersync.stream());
 }
 
-function js() {
+const js = () => {
     return src(path.src.js, {
             base: './src/assets/js/'
         })
@@ -128,22 +128,22 @@ function js() {
         .pipe(browsersync.stream());
 }
 
-function images() {
+const images = () => {
     return src(path.src.images)
         .pipe(imagemin())
         .pipe(dest(path.build.images));
 }
 
-function fonts() {
+const fonts = () => {
     return src(path.src.fonts)
         .pipe(dest(path.build.fonts));
 }
 
-function clean() {
+const clean = () => {
     return del(path.clean);
 }
 
-function watchFiles() {
+const watchFiles = () => {
     gulp.watch([path.watch.html], html);
     gulp.watch([path.watch.css], css);
     gulp.watch([path.watch.js], js);

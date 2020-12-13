@@ -3,7 +3,6 @@
 .footer {
   display: flex;
   justify-content: center;
-  //padding: 82px 0 0 0;
   height: 250px;
   background: #242935;
   color: #fff;
@@ -55,14 +54,3 @@
   /* or 31px */
 }
 
-.nav_footer {
-  margin: 53px 0 0;
-  a {
-    color: #fff;
-
-    &:first-child {
-      padding-left: 0;
-    }
-  }
-
-}
