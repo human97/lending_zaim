@@ -3,7 +3,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  height: 250px;
+  width: 100vw;
   background: #242935;
   color: #fff;
 
@@ -16,7 +16,15 @@
 
   @media (max-width: 1400px) {
     margin: 82px 0 60px 10px;
-      }
+  }
+
+  @media (max-width:988px) {
+    justify-content: space-between;
+  }
+
+  @media (max-width: 800px) {
+    margin: 40px 0 30px 10px;
+  }
 
   p {
     font-family: Roboto;
@@ -27,17 +35,38 @@
   }
 }
 
-.footer--logo{
+.footer--logo {
   display: block;
   margin: 0 0 30px 0;
+
+  &-svg {
+    width: 129px;
+    height: 37px;
+    fill: none;
+  }
 }
 
-.footer--wrapper-text{
+.footer--wrapper-text {
   width: 353px;
 }
 
+.nav_wrapper {
+  @media (max-width:988px) {
+    display: flex;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.phone {
+  @media (max-width: 800px) {
+    margin: 0 0 20px 0;
+  }
+}
+
 .phone_text {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -45,7 +74,6 @@
 }
 
 .phone_number {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -53,4 +81,3 @@
 
   /* or 31px */
 }
-

@@ -7,11 +7,25 @@
   padding: 130px 130px 0 215px;
   background: #E5E5E5;
 
+  @media (max-width:1670px) {
+    padding: 130px 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 1023px) {
+    padding: 30px 0 0 0;
+  }
+
   &--title {
     font-style: normal;
     font-weight: normal;
     font-size: 54px;
     line-height: 130%;
+
+    @media (max-width: 1023px) {
+      font-size: 36px;
+    }
   }
 
   &--title span {
@@ -27,11 +41,7 @@
     /* or 24px */
   }
 
-  @media (max-width:1670px) {
-    padding: 130px 0 0;
-    flex-direction: column;
-    align-items: center;
-  }
+  
 }
 
 .bg_grad {
@@ -41,10 +51,25 @@
   height: 739px;
   background: linear-gradient(180deg, #FF4550 0%, #FF7A00 100%);
   border-radius: 40px 40px 0px 0px;
+
+  @media (max-width: 800px) {
+    width: 85%;
+    height: 539px;
+  }
 }
 
 .avto_yaz {
   position: absolute;
   top: 125px;
   right: 59px;
+
+  @media (max-width: 1023px) {
+    max-width: 100%;
+  }
+
+  @media (max-width: 800px) {
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+  }
 }

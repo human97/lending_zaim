@@ -17,18 +17,47 @@
   }
 }
 
-.nav_header a {
+.nav_header {
+  @media (max-width:988px) {
+    flex-direction: column;
+  }
+
+a {
   color: $color_text;
+}
 }
 
 .nav_footer {
   margin: 53px 0 0;
 
+  @media (max-width:988px) {
+    flex-direction: column;
+    margin: 0;
+  }
+
   a {
     color: #fff;
 
+    @media (max-width: 800px) {
+      padding-left: 0;
+
+    }
+
     &:first-child {
       padding-left: 0;
+
+      @media (max-width:988px) {
+        padding-left: 20px;
+      }
+
+      @media (max-width: 800px) {
+        padding-left: 0;
+  
+      }
+    }
+
+    &:last-child {
+      white-space: nowrap;
     }
   }
 

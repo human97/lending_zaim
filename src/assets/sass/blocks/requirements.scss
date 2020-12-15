@@ -10,11 +10,16 @@
   border-radius: 20px;
   margin: 0 auto;
 
+  @media (max-width: 1024px) {
+    justify-content: center;
+    padding: 44px 0 45px 0;
+  }
+
   h2 {
     margin: 0 0 31px 0;
   }
 
-  .orange_line{
+  .orange_line {
     margin: 31px 0 53px 0;
   }
 
@@ -26,6 +31,10 @@
 
   &--lists {
     width: 634px;
+
+    @media (max-width: 1024px) {
+      width: 80%;
+    }
   }
 
   ul {
@@ -40,6 +49,11 @@
     width: 562px;
     border: 1px solid #BDC6CF;
     margin: 72px 0 64px 0;
+
+    @media (max-width: 1024px) {
+      width: 100%;
+      margin: 36px 0 32px 0;
+    }
   }
 
   img {
@@ -47,9 +61,15 @@
     top: 0;
     left: -14.16%;
 
-    @media (max-width:1580px){
+    @media (max-width:1580px) {
       z-index: -1;
     }
-  }
 
+    @media (max-width:1023px) {
+      left: 0;
+      z-index: 1;
+      opacity: .1;
+      max-width: 100%;
+    }
   }
+}
