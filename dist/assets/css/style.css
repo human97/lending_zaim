@@ -366,7 +366,6 @@ body {
     font-style: normal;
     color: #2F343A;
     background: #fff;
-    overflow-x: hidden;
 }
 
 /* blocks */
@@ -462,7 +461,6 @@ body {
 
 .nav--link {
     padding: 0 20px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -906,7 +904,6 @@ input::placeholder {
 
 .loans_title {
     margin: 0 0 30px 0;
-    font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 54px;
@@ -927,7 +924,6 @@ input::placeholder {
 }
 
 .loans_subtitle {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1022,7 +1018,6 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .payment_text {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1031,7 +1026,6 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .payment_total {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -1052,7 +1046,6 @@ input[type=range]::-webkit-slider-thumb {
     box-shadow: 0px 0px 10px rgba(85, 201, 118, 0.65);
     border-radius: 67px;
     cursor: pointer;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -1147,7 +1140,6 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .footer--wrapper p {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;

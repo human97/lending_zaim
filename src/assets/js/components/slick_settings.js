@@ -6,5 +6,5 @@ $("#slick-slider").slick({
   autoplay: true,
   speed: 1000,
   slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToScroll: 1
 });
