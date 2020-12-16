@@ -22,6 +22,11 @@
     margin: 129px auto 580px;
     width: 100vw;
   }
+
+  @media (max-width: 464px) {
+    padding: 40px 0 70px 0;
+    margin: 60px auto 580px;
+  }
 }
 
 .loans_title {
@@ -39,6 +44,15 @@
   @media (max-width: 1024px) {
     margin: 0 0 20px 0;
   }
+
+  @media (max-width: 500px) {
+   text-align: center;
+   font-size: 36px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 24px;
+   }
 }
 
 .loans_subtitle {
@@ -48,4 +62,8 @@
   line-height: 150%;
 
   /* or 24px */
+
+  @media (max-width: 500px) {
+    text-align: center;
+   }
 }

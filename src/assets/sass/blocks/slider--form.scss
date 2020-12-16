@@ -1,0 +1,12 @@
+/* slider--form */
+
+.slider--form{
+
+  .wrapper{
+    @media (max-width: 670px) {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    }
+  }

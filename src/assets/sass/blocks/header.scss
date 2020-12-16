@@ -12,6 +12,17 @@
 .header--inner {
   margin: 27px 0 0;
   width: 1492px;
+
+  .wrapper_flex{
+    @media (max-width: 670px) {
+      width: 60%;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 464px) {
+      flex-direction: column;
+    }
+  }
 }
 
 .header--logo {
@@ -21,11 +32,17 @@
     margin: 0 0 0 10px;
   }
 
+  @media (max-width: 670px) {
+    width: 40%;
+  }
+
   &-svg {
     width: 129px;
     height: 37px;
   }
 }
+
+
 
 .link_phone {
   display: flex;
@@ -35,6 +52,15 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
+  white-space: nowrap;
+
+  @media (max-width: 670px) {
+    padding: 0 10px 0 0;
+  }
+
+  @media (max-width: 464px) {
+    padding: 10px 0 0;
+  }
 
   &-svg {
     width: 19.89px;

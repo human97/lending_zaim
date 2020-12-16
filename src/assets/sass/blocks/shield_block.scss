@@ -1,6 +1,15 @@
 /* shield_block */
 
 .shield_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 670px) {
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+
   p {
     padding: 0 0 0 20px;
     font-style: normal;
@@ -8,8 +17,13 @@
     font-size: 12px;
     line-height: 130%;
     /* or 16px */
-    
+
     color: #2F343A;
+
+    @media (max-width: 380px) {
+        padding: 0;
+        width: 90vw;
+    }
 
     a {
       color: #65a4f0;

@@ -1,6 +1,13 @@
 /* btn_shield_block */
 
 .btn_shield_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 650px;
   margin: 62px 0 49px 0;
+
+  @media (max-width: 670px) {
+    flex-direction: column;
+  }
 }

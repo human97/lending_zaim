@@ -6,7 +6,7 @@
   width: 100vw;
   background: #242935;
   color: #fff;
-
+  padding: 0 10px;
 }
 
 .footer--wrapper {
@@ -14,16 +14,16 @@
   width: 1388px;
   margin: 82px 0 60px 0;
 
-  @media (max-width: 1400px) {
-    margin: 82px 0 60px 10px;
-  }
-
   @media (max-width:988px) {
     justify-content: space-between;
   }
 
   @media (max-width: 800px) {
     margin: 40px 0 30px 10px;
+  }
+
+  @media (max-width: 620px) {
+    flex-direction: column;
   }
 
   p {
@@ -47,6 +47,10 @@
 
 .footer--wrapper-text {
   width: 353px;
+
+  @media (max-width: 620px) {
+    width: 100%;
+  }
 }
 
 .nav_wrapper {
@@ -56,6 +60,10 @@
 
   @media (max-width: 800px) {
     flex-direction: column;
+  }
+
+  @media (max-width: 620px) {
+    margin: 20px 0 0;
   }
 }
 

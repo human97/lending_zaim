@@ -14,12 +14,13 @@
   }
 }
 
-.help_select_wrap{
+.help_select_wrap {
   height: 296px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .help_select {
   display: flex;
   justify-content: space-between;
@@ -34,6 +35,10 @@
     width: 100%;
   }
 
+  @media (max-width: 464px) {
+    padding: 0 22px 0 21px;
+  }
+
   p {
     font-family: Roboto;
     font-style: normal;
@@ -42,7 +47,15 @@
     line-height: 130%;
   }
 
-  svg{
+  svg {
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    fill: none;
+
+    @media (max-width: 380px) {
+      width: 25px;
+      height: 25px;
+    }
   }
 }

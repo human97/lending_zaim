@@ -23,6 +23,11 @@
 }
 
 .conditions--text {
+
+  @media (max-width: 670px) {
+    text-align: center;
+    
+  }
   
   p {
     font-weight: normal;

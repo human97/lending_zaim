@@ -17,6 +17,17 @@
     padding: 30px 0 0 0;
   }
 
+  &--wrapper-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media (max-width: 670px) {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
   &--title {
     font-style: normal;
     font-weight: normal;
@@ -25,6 +36,15 @@
 
     @media (max-width: 1023px) {
       font-size: 36px;
+    }
+
+    @media (max-width: 670px) {
+      font-size: 28px;
+    }
+
+    @media (max-width: 370px) {
+      font-size: 22px;
+      width: 80%;
     }
   }
 
@@ -39,9 +59,13 @@
     font-size: 16px;
     line-height: 150%;
     /* or 24px */
+    
+    @media (max-width: 520px) {
+      width: 50%;
+    }
   }
 
-  
+
 }
 
 .bg_grad {
@@ -55,6 +79,15 @@
   @media (max-width: 800px) {
     width: 85%;
     height: 539px;
+  }
+
+  @media (max-width: 464px) {
+    height: 439px;
+    width: 100%;
+  }
+
+  @media (max-width: 370px) {
+    height: 339px;
   }
 }
 
