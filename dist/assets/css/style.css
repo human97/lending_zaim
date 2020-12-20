@@ -783,7 +783,6 @@ input::placeholder {
     border-radius: 10px;
     border: 0;
     cursor: pointer;
-    font-family: SF Pro Display;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -1270,7 +1269,6 @@ input[type=range]::-webkit-slider-thumb {
     align-items: center;
     justify-content: space-between;
     width: 966px;
-    height: 444px;
     margin: 0 auto 106px;
 }
 
@@ -1280,22 +1278,36 @@ input[type=range]::-webkit-slider-thumb {
     }
 }
 
+@media (max-width: 360px) {
+    .help {
+        margin: 0 auto 53px;
+    }
+}
+
 .help_select_wrap {
-    height: 296px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .help_select {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 44px 0 42px;
+    display: block;
+    padding: 25px 44px 25px 42px;
     width: 966px;
-    height: 88px;
+    min-height: 88px;
+    margin: 0 0 16px 0;
     background: #EFF3F9;
     border-radius: 10px;
+}
+
+.help_select:last-child {
+    margin: 0 0 80px 0;
+}
+
+@media (max-width: 360px) {
+    .help_select:last-child {
+        margin: 0 0 40px 0;
+    }
 }
 
 @media (max-width: 976px) {
@@ -1306,12 +1318,31 @@ input[type=range]::-webkit-slider-thumb {
 
 @media (max-width: 464px) {
     .help_select {
-        padding: 0 22px 0 21px;
+        padding: 7px 22px 7px 21px;
+        min-height: 44px;
     }
 }
 
 .help_select p {
-    font-family: Roboto;
+    margin: 5px;
+}
+
+.help_select summary::-webkit-details-marker {
+    display: none;
+}
+
+.help_select summary::-moz-list-bullet {
+    list-style-type: none;
+}
+
+.help_select summary::marker {
+    display: none;
+}
+
+.help_select summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1320,16 +1351,9 @@ input[type=range]::-webkit-slider-thumb {
 
 .help_select svg {
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 23.3px;
+    height: 23.3px;
     fill: none;
-}
-
-@media (max-width: 380px) {
-    .help_select svg {
-        width: 25px;
-        height: 25px;
-    }
 }
 
 /* footer */
