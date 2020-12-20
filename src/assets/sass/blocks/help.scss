@@ -69,17 +69,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 130%;
-  }
-
-  svg {
     cursor: pointer;
-    width: 23.3px;
-    height: 23.3px;
-    fill: none;
+
+    @media (max-width: 360px) {
+      font-size: 16px;
+    }
+
+    &:after {
+      content: '+';
+      display: inline-block;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      margin: 0 0 0 5px;
+    }
   }
 }

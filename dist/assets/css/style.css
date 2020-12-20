@@ -1346,14 +1346,22 @@ input[type=range]::-webkit-slider-thumb {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 130%;
+    cursor: pointer;
 }
 
-.help_select svg {
-    cursor: pointer;
-    width: 23.3px;
-    height: 23.3px;
-    fill: none;
+@media (max-width: 360px) {
+    .help_select summary {
+        font-size: 16px;
+    }
+}
+
+.help_select summary:after {
+    content: '+';
+    display: inline-block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 0 0 0 5px;
 }
 
 /* footer */
