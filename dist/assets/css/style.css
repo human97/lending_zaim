@@ -826,6 +826,12 @@ input::placeholder {
     color: #65a4f0;
 }
 
+.shield {
+    width: 33px;
+    height: 33px;
+    fill: none;
+}
+
 /* btn_shield_block */
 .btn_shield_block {
     display: flex;
@@ -912,6 +918,12 @@ input::placeholder {
     height: 153px;
     background: linear-gradient(89.26deg, #E1DFDF 11.54%, rgba(255, 255, 255, 0) 119.92%);
     border-radius: 26px;
+}
+
+.benefit_img--svg {
+    width: 64px;
+    height: 64px;
+    fill: none;
 }
 
 .benefit_img-time {
@@ -1003,6 +1015,7 @@ input::placeholder {
 }
 
 .requirements ul {
+    list-style: none;
     list-style-image: url(../img/icons/green_dot.svg);
     font-weight: normal;
     font-size: 16px;

@@ -26,9 +26,19 @@
   background: linear-gradient(89.26deg, #E1DFDF 11.54%, rgba(255, 255, 255, 0) 119.92%);
   border-radius: 26px;
 
+  &--svg {
+    width: 64px;
+    height: 64px;
+    fill: none;
+  }
+
   &-time {
     background: linear-gradient(51.78deg, #FF8E09 -12.52%, #FF0000 124.02%);
   }
+}
+
+.percent {
+  
 }
 
 .benefit_text {

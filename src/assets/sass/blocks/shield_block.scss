@@ -21,12 +21,18 @@
     color: #2F343A;
 
     @media (max-width: 380px) {
-        padding: 0;
-        width: 90vw;
+      padding: 0;
+      width: 90vw;
     }
 
     a {
       color: #65a4f0;
     }
   }
+}
+
+.shield {
+  width: 33px;
+  height: 33px;
+  fill: none;
 }
