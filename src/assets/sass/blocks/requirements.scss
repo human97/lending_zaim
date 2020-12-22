@@ -60,20 +60,21 @@
     }
   }
 
-  img {
-    position: absolute;
-    top: 0;
-    left: -14.16%;
+}
 
-    @media (max-width:1580px) {
-      z-index: -1;
-    }
+.avto {
+  position: absolute;
+  top: 0;
+  left: -14.16%;
 
-    @media (max-width:1023px) {
-      left: 0;
-      z-index: 1;
-      opacity: .1;
-      max-width: 100%;
-    }
+  @media (max-width:1580px) {
+    z-index: -1;
+  }
+
+  @media (max-width:1023px) {
+    left: 0;
+    z-index: 1;
+    opacity: .1;
+    max-width: 100%;
   }
 }

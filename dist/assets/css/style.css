@@ -1023,20 +1023,20 @@ input::placeholder {
     }
 }
 
-.requirements img {
+.avto {
     position: absolute;
     top: 0;
     left: -14.16%;
 }
 
 @media (max-width: 1580px) {
-    .requirements img {
+    .avto {
         z-index: -1;
     }
 }
 
 @media (max-width: 1023px) {
-    .requirements img {
+    .avto {
         left: 0;
         z-index: 1;
         opacity: .1;
