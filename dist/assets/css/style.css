@@ -777,6 +777,8 @@ input::placeholder {
 
 /* btn */
 .btn {
+    display: block;
+    text-align: center;
     width: 230px;
     height: 68px;
     background: linear-gradient(249.52deg, #35B779 8.88%, #92C672 100%);
@@ -789,6 +791,7 @@ input::placeholder {
     line-height: 130%;
     color: #fff;
     text-transform: uppercase;
+    line-height: 68px;
 }
 
 /* shield_block */
