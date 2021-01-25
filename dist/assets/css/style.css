@@ -875,7 +875,7 @@ input::placeholder {
 
 @media (max-width: 1434px) {
     .conditions--wrapper {
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -950,7 +950,7 @@ input::placeholder {
 
 @media (max-width: 1220px) {
     .benefits {
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -1076,7 +1076,7 @@ input::placeholder {
 @media (max-width: 1496px) {
     .loans {
         padding: 161px 0 145px 10px;
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -1085,7 +1085,7 @@ input::placeholder {
         align-items: center;
         padding: 40px 0 70px 0;
         margin: 129px auto 580px;
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -1384,7 +1384,7 @@ input[type=range]::-webkit-slider-thumb {
 .footer {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background: #242935;
     color: #fff;
     padding: 0 10px;
