@@ -3,7 +3,7 @@
 $("#slick-slider").slick({
   arrows: false,
   dots: false,
-  //autoplay: true,
+  autoplay: true,
   speed: 1000,
   slidesToShow: 1,
   slidesToScroll: 1
